@@ -1,0 +1,4 @@
+# Replace with your domain (its DNS A record must point to this server)
+yourdomain.com, www.yourdomain.com {
+  reverse_proxy web:3000
+}

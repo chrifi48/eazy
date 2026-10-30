@@ -1,0 +1,20 @@
+# docker compose up -d --build        (needs a .env file next to this one, see .env.example)
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - eazy-data:/app/data      # the database + uploaded files: back this up
+    expose: ["3000"]
+  caddy:                          # automatic HTTPS (free certificates) for your domain
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    depends_on: [web]
+volumes:
+  eazy-data:
+  caddy-data:

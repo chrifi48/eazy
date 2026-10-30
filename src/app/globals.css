@@ -3,25 +3,44 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: 30 58 138;
+  --accent: 249 115 22;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --border: 214 32% 91%;
+  --card: 0 0% 100%;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: 222 47% 7%;
+  --foreground: 210 40% 98%;
+  --muted: 217 33% 14%;
+  --muted-foreground: 215 20% 65%;
+  --border: 217 33% 20%;
+  --card: 222 47% 10%;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+body { @apply bg-background text-foreground font-sans antialiased; }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  @keyframes blob { 0%,100% { transform: translate(0,0) scale(1) } 33% { transform: translate(30px,-40px) scale(1.12) } 66% { transform: translate(-25px,25px) scale(.92) } }
+  @keyframes floaty { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
+  @keyframes shine { to { background-position: 200% center } }
+  .animate-blob { animation: blob 14s ease-in-out infinite }
+  .animate-floaty { animation: floaty 6s ease-in-out infinite }
+  .text-shine { background: linear-gradient(90deg, rgb(var(--primary)), rgb(var(--accent)), rgb(var(--primary))); background-size: 200% auto; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shine 6s linear infinite }
+  .glass { @apply bg-card/70 backdrop-blur-md border border-border/60 }
 }
+@media (prefers-reduced-motion: reduce) {
+  .animate-blob, .animate-floaty, .text-shine { animation: none }
+}
+html { scroll-behavior: smooth }
+
+/* admin-authored rich text (legal pages) */
+.rich h2 { @apply mb-3 mt-8 text-2xl font-bold text-foreground first:mt-0; }
+.rich h3 { @apply mb-2 mt-6 text-lg font-semibold text-foreground; }
+.rich p { @apply mb-4; }
+.rich ul { @apply mb-4 list-disc ps-6; }
+.rich ol { @apply mb-4 list-decimal ps-6; }
+.rich a { @apply text-accent underline underline-offset-2; }
+.rich blockquote { @apply mb-4 border-s-4 border-accent/50 ps-4 italic; }

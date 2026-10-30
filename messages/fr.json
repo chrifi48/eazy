@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "models": "Modèles",
+    "pricing": "Tarifs",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "contact": "Contact",
+    "start": "Démarrer mon projet"
+  },
+  "common": {
+    "seeModels": "Voir les modèles",
+    "preview": "Aperçu",
+    "choose": "Choisir ce modèle",
+    "customize": "Personnaliser ce modèle",
+    "from": "À partir de",
+    "days": "jours",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Confirmer et envoyer",
+    "search": "Rechercher",
+    "all": "Tous",
+    "apply": "Appliquer",
+    "reset": "Réinitialiser",
+    "noResults": "Aucun résultat.",
+    "viewAll": "Tout voir",
+    "prev": "Précédent",
+    "theme": "Changer de thème",
+    "language": "Langue",
+    "whatsapp": "Discuter sur WhatsApp",
+    "currency": "Devise",
+    "required": "Obligatoire",
+    "optional": "Optionnel",
+    "mad": "MAD",
+    "eur": "EUR",
+    "details": "Détails"
+  },
+  "types": {
+    "website": "Site web",
+    "mobile": "Application mobile",
+    "desktop": "Application bureau",
+    "unsure": "Je ne sais pas encore"
+  },
+  "home": {
+    "heroTitle": "Nous créons votre site web, application mobile ou logiciel — choisissez votre modèle, obtenez votre prix, lancez votre projet",
+    "heroSubtitle": "Choisissez un modèle prêt à l'emploi, sélectionnez vos fonctionnalités, voyez une estimation en direct et prenez rendez-vous avec nous.",
+    "chooseType": "Que voulez-vous créer ?",
+    "typeDesc": {
+      "website": "Vitrine, e-commerce ou plateforme web",
+      "mobile": "Applications iOS et Android",
+      "desktop": "Logiciels Windows et macOS"
+    },
+    "popular": "Catégories populaires",
+    "howTitle": "Comment ça marche",
+    "steps": [
+      {
+        "t": "Choisissez un modèle",
+        "d": "Parcourez nos modèles par catégorie."
+      },
+      {
+        "t": "Sélectionnez les fonctionnalités",
+        "d": "Cochez ce dont votre projet a besoin."
+      },
+      {
+        "t": "Voyez votre prix",
+        "d": "Une estimation en direct."
+      },
+      {
+        "t": "Prenez rendez-vous",
+        "d": "Choisissez un créneau et on lance."
+      }
+    ],
+    "featured": "Modèles à la une",
+    "portfolio": "Derniers projets",
+    "testimonials": "Ce que disent nos clients",
+    "pricing": "Nos formules",
+    "faq": "Questions fréquentes",
+    "ctaTitle": "Prêt à lancer votre projet ?",
+    "ctaText": "Obtenez une estimation en quelques minutes et réservez un rendez-vous gratuit."
+  },
+  "models": {
+    "title": "Galerie de modèles",
+    "subtitle": "Trouvez la base qui correspond à votre projet.",
+    "type": "Type de projet",
+    "category": "Catégorie",
+    "minPrice": "Prix min (MAD)",
+    "maxPrice": "Prix max (MAD)",
+    "searchPlaceholder": "Rechercher un modèle…",
+    "demo": "Démo en ligne",
+    "included": "Fonctionnalités incluses",
+    "tech": "Technologies",
+    "delivery": "Livraison estimée",
+    "startingFrom": "À partir de",
+    "similar": "Modèles similaires"
+  },
+  "start": {
+    "title": "Démarrez votre projet",
+    "steps": [
+      "Type",
+      "Catégorie",
+      "Modèle",
+      "Fonctionnalités",
+      "Formule",
+      "Vos infos",
+      "Rendez-vous",
+      "Récapitulatif"
+    ],
+    "s1": "Quel type de projet ?",
+    "s2": "Quelle catégorie ?",
+    "s3": "Choisissez un modèle",
+    "customDesign": "Je veux un design sur mesure",
+    "customDesignDesc": "Nous le concevons entièrement pour vous.",
+    "s4": "Sélectionnez vos fonctionnalités",
+    "s5": "Choisissez une formule (optionnel)",
+    "noPackage": "Aucune formule, utiliser l'estimation",
+    "s6": "Parlez-nous de vous",
+    "s7": "Prenez rendez-vous",
+    "s8": "Vérifiez et confirmez",
+    "estimate": "Prix estimé",
+    "estimateDays": "Livraison estimée",
+    "estimateNote": "Ceci est une estimation. Le prix final est confirmé après notre rendez-vous.",
+    "baseModel": "Modèle de base",
+    "features": "Fonctionnalités",
+    "fullName": "Nom complet",
+    "businessName": "Nom de l'entreprise",
+    "sector": "Secteur d'activité",
+    "city": "Ville",
+    "country": "Pays",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "whatsapp": "Numéro WhatsApp",
+    "language": "Langue préférée",
+    "description": "Description du projet",
+    "deadline": "Date limite",
+    "budget": "Budget",
+    "files": "Fichiers (logo, documents — max 4 Mo)",
+    "fileTooBig": "Le fichier dépasse 4 Mo",
+    "pickDate": "Choisissez un jour",
+    "pickSlot": "Choisissez une heure",
+    "noSlots": "Aucun créneau disponible ce jour.",
+    "meetingType": "Type de rendez-vous",
+    "inPerson": "En personne",
+    "video": "Visioconférence",
+    "phone_": "Appel téléphonique",
+    "terms": "J'accepte les conditions générales",
+    "submitting": "Envoi…",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "slotTaken": "Ce créneau vient d'être pris, choisissez-en un autre.",
+    "tooMany": "Trop de demandes, patientez quelques minutes.",
+    "notSure": "Je ne sais pas",
+    "pickOne": "Choisissez une option pour continuer.",
+    "restoreDraft": "Votre brouillon précédent a été restauré.",
+    "package": "Formule",
+    "customLabel": "Design sur mesure",
+    "appointment": "Rendez-vous",
+    "fixErrors": "Veuillez remplir correctement les champs obligatoires.",
+    "budgets": [
+      "Moins de 5 000 MAD",
+      "5 000 – 15 000 MAD",
+      "15 000 – 40 000 MAD",
+      "Plus de 40 000 MAD",
+      "Non défini"
+    ]
+  },
+  "success": {
+    "title": "Demande reçue !",
+    "ref": "Votre numéro de référence",
+    "text": "Nous vous avons envoyé un e-mail de confirmation. À bientôt à votre rendez-vous.",
+    "whatsapp": "Me contacter sur WhatsApp",
+    "home": "Retour à l'accueil"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Des formules claires, des prix transparents.",
+    "maintenance": "Maintenance et hébergement",
+    "compare": "Comparer les formules",
+    "monthly": "/ mois",
+    "yearly": "/ an",
+    "oneTime": "paiement unique",
+    "cta": "Démarrer un projet",
+    "highlight": "Le plus populaire",
+    "feature": "Fonctionnalité",
+    "note": "Prix en MAD, à partir de, pour un projet standard. L'hébergement et le nom de domaine sont facturés séparément (voir les formules de maintenance). Le devis final est confirmé après notre rendez-vous.",
+    "compareHint": "Ce qui est inclus dans chaque formule, côte à côte.",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "choose": "Choisir"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Les projets que nous avons livrés.",
+    "client": "Client",
+    "result": "Résultat",
+    "visit": "Voir le projet",
+    "tech": "Technologies"
+  },
+  "about": {
+    "title": "À propos de eazy",
+    "who": "Qui suis-je",
+    "whoText": "Je suis développeur freelance basé à Rabat, au Maroc. J'aide les petites entreprises et organisations à obtenir des sites web, applications mobiles et logiciels simples, rapides et abordables.",
+    "skills": "Compétences",
+    "process": "Ma méthode",
+    "processSteps": [
+      "Rendez-vous de découverte",
+      "Devis et planification",
+      "Conception et développement",
+      "Livraison et suivi"
+    ],
+    "values": "Valeurs",
+    "valuesList": [
+      "Transparence",
+      "Qualité",
+      "Délais respectés",
+      "Support à long terme"
+    ],
+    "experience": "Expérience",
+    "experienceText": "Des années à créer des produits web, mobiles et desktop pour des clients au Maroc et à l'étranger."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question ? Écrivez-nous.",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sent": "Message envoyé. Merci !",
+    "error": "Envoi impossible. Veuillez réessayer.",
+    "info": "Coordonnées",
+    "address": "Adresse",
+    "follow": "Suivez-nous"
+  },
+  "footer": {
+    "tagline": "Sites web, applications mobiles et logiciels — en toute simplicité.",
+    "links": "Liens",
+    "legal": "Légal",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "maintenance": {
+    "title": "De retour bientôt",
+    "text": "Le site est en maintenance. Revenez dans un instant."
+  },
+  "notFound": "Page introuvable"
+}

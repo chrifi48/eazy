@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Home",
+    "models": "Models",
+    "pricing": "Pricing",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "start": "Start my project"
+  },
+  "common": {
+    "seeModels": "See models",
+    "preview": "Preview",
+    "choose": "Choose this model",
+    "customize": "Customize this model",
+    "from": "From",
+    "days": "days",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Confirm and submit",
+    "search": "Search",
+    "all": "All",
+    "apply": "Apply",
+    "reset": "Reset",
+    "noResults": "Nothing found.",
+    "viewAll": "View all",
+    "prev": "Previous",
+    "theme": "Toggle theme",
+    "language": "Language",
+    "whatsapp": "Chat on WhatsApp",
+    "currency": "Currency",
+    "required": "Required",
+    "optional": "Optional",
+    "mad": "MAD",
+    "eur": "EUR",
+    "details": "Details"
+  },
+  "types": {
+    "website": "Website",
+    "mobile": "Mobile App",
+    "desktop": "Desktop App",
+    "unsure": "Not sure yet"
+  },
+  "home": {
+    "heroTitle": "We build your website, mobile app or software — choose your model, get your price, launch your project",
+    "heroSubtitle": "Pick a ready-made model, select the features you need, see a live estimate and book a meeting with us.",
+    "chooseType": "What do you want to build?",
+    "typeDesc": {
+      "website": "Showcase, e-commerce or web platform",
+      "mobile": "iOS and Android applications",
+      "desktop": "Windows and macOS software"
+    },
+    "popular": "Popular categories",
+    "howTitle": "How it works",
+    "steps": [
+      {
+        "t": "Choose a model",
+        "d": "Browse our templates by category."
+      },
+      {
+        "t": "Select features",
+        "d": "Tick what your project needs."
+      },
+      {
+        "t": "See your price",
+        "d": "A live estimate as you choose."
+      },
+      {
+        "t": "Book a meeting",
+        "d": "Pick a slot and we launch."
+      }
+    ],
+    "featured": "Featured models",
+    "portfolio": "Latest projects",
+    "testimonials": "What clients say",
+    "pricing": "Our packages",
+    "faq": "Frequently asked questions",
+    "ctaTitle": "Ready to launch your project?",
+    "ctaText": "Get an estimate in minutes and book a free meeting."
+  },
+  "models": {
+    "title": "Models gallery",
+    "subtitle": "Find the base that fits your project.",
+    "type": "Project type",
+    "category": "Category",
+    "minPrice": "Min price (MAD)",
+    "maxPrice": "Max price (MAD)",
+    "searchPlaceholder": "Search a model…",
+    "demo": "Live demo",
+    "included": "Included features",
+    "tech": "Technologies",
+    "delivery": "Estimated delivery",
+    "startingFrom": "Starting from",
+    "similar": "Similar models"
+  },
+  "start": {
+    "title": "Start your project",
+    "steps": [
+      "Type",
+      "Category",
+      "Model",
+      "Features",
+      "Package",
+      "Your info",
+      "Appointment",
+      "Summary"
+    ],
+    "s1": "What type of project?",
+    "s2": "Which category?",
+    "s3": "Choose a model",
+    "customDesign": "I want a custom design",
+    "customDesignDesc": "We design it from scratch for you.",
+    "s4": "Select your features",
+    "s5": "Choose a package (optional)",
+    "noPackage": "No package, use the estimate",
+    "s6": "Tell us about you",
+    "s7": "Book an appointment",
+    "s8": "Review and confirm",
+    "estimate": "Estimated price",
+    "estimateDays": "Estimated delivery",
+    "estimateNote": "This is an estimate. Final price is confirmed after our meeting.",
+    "baseModel": "Base model",
+    "features": "Features",
+    "fullName": "Full name",
+    "businessName": "Business name",
+    "sector": "Business sector",
+    "city": "City",
+    "country": "Country",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp number",
+    "language": "Preferred language",
+    "description": "Project description",
+    "deadline": "Deadline",
+    "budget": "Budget range",
+    "files": "Files (logo, documents — max 4MB)",
+    "fileTooBig": "File is larger than 4MB",
+    "pickDate": "Pick a day",
+    "pickSlot": "Pick a time",
+    "noSlots": "No slots available on this day.",
+    "meetingType": "Meeting type",
+    "inPerson": "In person",
+    "video": "Video call",
+    "phone_": "Phone call",
+    "terms": "I accept the terms and conditions",
+    "submitting": "Sending…",
+    "error": "Something went wrong. Please try again.",
+    "slotTaken": "This slot was just taken, please choose another.",
+    "tooMany": "Too many requests, please wait a few minutes.",
+    "notSure": "Not sure",
+    "pickOne": "Please choose an option to continue.",
+    "restoreDraft": "Your previous draft was restored.",
+    "package": "Package",
+    "customLabel": "Custom design",
+    "appointment": "Appointment",
+    "fixErrors": "Please fill the required fields correctly.",
+    "budgets": [
+      "Under 5,000 MAD",
+      "5,000 – 15,000 MAD",
+      "15,000 – 40,000 MAD",
+      "Over 40,000 MAD",
+      "Not defined"
+    ]
+  },
+  "success": {
+    "title": "Request received!",
+    "ref": "Your reference number",
+    "text": "We sent you a confirmation email. We will see you at your appointment.",
+    "whatsapp": "Contact me on WhatsApp",
+    "home": "Back to home"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Clear packages, transparent prices.",
+    "maintenance": "Maintenance & hosting",
+    "compare": "Compare packages",
+    "monthly": "/ month",
+    "yearly": "/ year",
+    "oneTime": "one-time",
+    "cta": "Start a project",
+    "highlight": "Most popular",
+    "feature": "Feature",
+    "note": "Prices are in MAD, starting prices for a standard project. Hosting and domain are billed separately (see maintenance plans). The final quote is confirmed after our meeting.",
+    "compareHint": "What is included in each package, side by side.",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "choose": "Choose"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Projects we delivered.",
+    "client": "Client",
+    "result": "Result",
+    "visit": "Visit the project",
+    "tech": "Technologies"
+  },
+  "about": {
+    "title": "About eazy",
+    "who": "Who I am",
+    "whoText": "I'm a freelance developer based in Rabat, Morocco. I help small businesses and organisations get websites, mobile apps and business software that are simple, fast and affordable.",
+    "skills": "Skills",
+    "process": "My process",
+    "processSteps": [
+      "Discovery meeting",
+      "Quote and planning",
+      "Design and development",
+      "Delivery and support"
+    ],
+    "values": "Values",
+    "valuesList": [
+      "Transparency",
+      "Quality",
+      "Deadlines respected",
+      "Long-term support"
+    ],
+    "experience": "Experience",
+    "experienceText": "Years of building web, mobile and desktop products for clients in Morocco and abroad."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Questions? Write to us.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send message",
+    "sent": "Message sent. Thank you!",
+    "error": "Could not send. Please try again.",
+    "info": "Contact details",
+    "address": "Address",
+    "follow": "Follow us"
+  },
+  "footer": {
+    "tagline": "Websites, mobile apps and software — made easy.",
+    "links": "Links",
+    "legal": "Legal",
+    "terms": "Terms & conditions",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved."
+  },
+  "maintenance": {
+    "title": "Back soon",
+    "text": "The site is under maintenance. Please come back in a moment."
+  },
+  "notFound": "Page not found"
+}
